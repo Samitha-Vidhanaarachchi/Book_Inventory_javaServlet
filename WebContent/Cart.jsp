@@ -185,5 +185,59 @@
   </nav>
   
 
-  
+  <div class="page-header header-filter" data-parallax="true" style="  height:900px; background-image: url('assets/img/bookscover.jpg')">
+    <div class="container" >
+    <div class="row">
+     <h2>Welcome User </h2> 
+        <div class="col-md-10 ml-auto mr-auto">
+          <div class="card card-signup">
+            <div class="card-body" style="  height:750px;">
+
+
+     
+              <div class="profile-content">
+                <div class="container">
+
+                  <div class="row" >
+                    <div class="col-md-6 ml-auto mr-auto">
+         
+                  </div>
+
+                  <div class="tab-content tab-space" > 
+
+                    <div class="tab-pane active work" id="work" >
+                      <div class="row" >
+
+                        <div class="col-md-10 ml-auto mr-auto" >
+                            <div class="card card-signup">
+                               
+                          <div class="card-body">
+              <div class="row" style="  height:500px;">
+       
+
+                         <div  style="width: 400px; left: 250px">
+                
+                    <form method="" action="#">
+                      <div class="row">
+                        <div class="col-lg-8 col-md-6 ">
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="material-icons">search</i>
+                              </span>
+                            </div>
+                            <input type="text" value="" placeholder="Search..." class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 ">
+                          <button type="button" class="btn btn-primary btn-block">Search</button>
+                        </div>
+                      </div>
+                    </form>
+              
+                </div>
+                 
+
+   
+      
 </html>
