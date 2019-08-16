@@ -239,5 +239,73 @@
                  
 
    
-      
+      <div class="card card-plain" >
+        <div class="card-body" >
+        
+          <div class="table-responsive" style="height:410px; width: 700px;">
+              <div class="col-lg-6 col-md-12">
+              <div class="card" style="height:410px; width: 650px;">
+               
+                <div class="card-body table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-warning">
+                      <th>ID</th>
+                      <th>Book</th>
+                       <th>Name</th>
+                      <th>Author</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                      <th>Action</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>001</td>
+                        <td> 
+                          <div class="img-container" style="width: 100px; height: 100px;">
+                      <img src="assets/img/B362.jpg" alt="...">
+                        </div>
+                        </td>
+                        <td>Geography</td>
+                        <td>Resara</td>
+                        <td>1</td>
+                        <td>Rs.1200</td>
+                             <td>
+                             <a href="Purchase.jsp"> <button type="button"  class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">monetization_on</i>
+                              </button></a>
+                              <br>
+                              <button type="button" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+             </div>             
+           </div>
+            </div>
+           </div>
+          </div>
+          </div>
+           </div>
+         </div>
+      </div>
+      </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  
+  
+            
+
 </html>
