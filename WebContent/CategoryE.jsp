@@ -41,6 +41,17 @@
             </a>
             <div class="dropdown-menu dropdown-with-icons">
               
-
+  
+              <a href="Category.jsp" class="dropdown-item">
+               <i class="fa fa-book"></i></i>&nbsp; &nbsp; Novel 
+              </a>
+               <a href="CategoryC.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp; Children
+              </a>
+              <a href="CategoryE.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp;  Education
+              </a>
+            </div>
+          </li>
 
 
