@@ -80,3 +80,5 @@
               <a href="#" class="dropdown-item">
                 <i class="material-icons">fingerprint</i> Profile Page
               </a>
+                </div>
+          </li>
