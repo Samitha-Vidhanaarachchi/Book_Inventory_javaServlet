@@ -63,9 +63,14 @@
                   </li>
 
 
-   
+
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               <i class="material-icons">apps</i> Menu
             </a>
             <div class="dropdown-menu dropdown-with-icons">
+
+
+            	 <a href="About_Us.jsp" class="dropdown-item">
+                <i class="material-icons">people</i> About Us
+              </a>
