@@ -61,3 +61,11 @@
                       <i class="material-icons">account_circle</i>Login / Register
                     </a>
                   </li>
+
+
+   
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
