@@ -74,3 +74,6 @@
             	 <a href="About_Us.jsp" class="dropdown-item">
                 <i class="material-icons">people</i> About Us
               </a>
+              <a href="Contact_Us.jsp" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
