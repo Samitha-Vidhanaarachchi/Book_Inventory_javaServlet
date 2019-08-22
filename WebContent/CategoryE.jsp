@@ -77,3 +77,6 @@
               <a href="Contact_Us.jsp" class="dropdown-item">
                 <i class="material-icons">call</i> Contact Us
               </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
