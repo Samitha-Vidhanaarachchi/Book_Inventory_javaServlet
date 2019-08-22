@@ -55,3 +55,9 @@
           </li>
 
 
+
+         <li class="nav-item" >
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"> 
+                      <i class="material-icons">account_circle</i>Login / Register
+                    </a>
+                  </li>
