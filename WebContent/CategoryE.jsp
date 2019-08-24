@@ -365,4 +365,31 @@
               </div>
                <!-- end card -->
 
+               <!-- begin -->
+              <div class="col-md-3">
+              
+                <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
+                  <div class="card-header card-header-image">
+                    <a href="#">
+                      <img src="assets/img/B186-250.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#">
+                      <h4 class="card-title">Book</h4>
+                    </a>
+                    <p class="description" style="text-align:center;">author</p>
+                    <h6 class="card-title">Price </h6>
+                     <div class="row"> 
+              <button style="background-color: #247DF5; left: 30px;" class="btn btn-primary">Lend book</button>
+              <button style="background-color: #F52424 ;  left: 30px;" class="btn btn-primary "><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+
+                  </div>
+                  </div>
+                
+                </div>
+               
+              </div>
+               <!-- end card -->
+
 
