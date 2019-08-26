@@ -653,4 +653,14 @@
     </div>
   </footer>
 
+    <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-login" role="document">
+      <div class="modal-content">
+        <div class="card card-signup card-plain">
+          <div class="modal-header">
+            <div class="card-header card-header-primary text-center">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+              <h4 class="card-title">Log in</h4>
+
 
