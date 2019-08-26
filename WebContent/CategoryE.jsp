@@ -630,4 +630,27 @@
             </div>
           </div>
 
+          </div>
+      </div>
+      <hr>
+      <ul class="float-left">
+          
+              <a href="#pablo" class="btn btn-twitter btn-round">
+                <i class="fa fa-twitter"></i> Twitter &#xB7; 
+              </a>
+              <a href="#pablo" class="btn btn-facebook btn-round">
+                <i class="fa fa-facebook-square"></i> Facebook &#xB7; 
+              </a>
+              <a href="#pablo" class="btn btn-google btn-round">
+                <i class="fa fa-google-plus"></i> Google &#xB7; 
+              </a>
+              <a href="#pablo" class="btn btn-dribbble btn-round">
+                <i class="fa fa-dribbble"></i> Dribbble &#xB7;
+              </a>
+            
+      </ul>
+ 
+    </div>
+  </footer>
+
 
