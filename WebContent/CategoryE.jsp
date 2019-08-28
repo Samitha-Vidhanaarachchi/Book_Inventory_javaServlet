@@ -677,3 +677,33 @@
                     </div>
 
 
+<input type="text" name="Uname" class="form-control" placeholder="User name...">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                      </span>
+                    </div>
+                    <input type="password" name="password" placeholder="Password..." class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer justify-content-center">
+                 <div class="text-center" >
+                     <button  type="submit" style="background-color: #0DB02F; width: 300px;" class="btn btn-primary">Login
+                     </button>
+                    </div>
+                   </div> 
+                   
+                   <div class="modal-footer justify-content-center">
+            <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg" data-toggle="modal" data-target="#signupModal" >Register</a>
+          </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
