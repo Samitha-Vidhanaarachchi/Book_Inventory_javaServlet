@@ -33,3 +33,84 @@ clicked.click(function() {
 });
 
 </script> -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+$('#submit').click(function(e) {
+// Initializing Variables With Form Element Values
+var fname = $('#fname').val();
+var lname = $('#lname').val();
+var email = $('#email').val();
+var address = $('#address').val();
+var contactNumber = $('#contactNumber').val();
+var password = $('#password').val();
+var confirmPassword = $('#confirmPassword').val();
+
+// Initializing Variables With Regular Expressions
+var fname_regex = /^[a-zA-Z]+$/;
+var lname_regex = /^[a-zA-Z]+$/;
+var email_regex = /^[w-.+]+@[a-zA-Z0-9.-]+.[a-zA-z0-9]{2,4}$/;
+var address_regex = /^[0-9a-zA-Z]+$/;
+var contactNumber_regex = /^[0-9]+$/;
+
+// To Check Empty Form Fields.
+if (fname.length == 0) {
+$('#head').text("* All fields are mandatory *"); // This Segment Displays The Validation Rule For All Fields
+$("#fname").focus();
+return false;
+}
+// Validating Name Field.
+else if ((!fname.match(fname_regex) || fname.length == 0) && (!lname.match(lname_regex) || lname.length == 0)){
+$('#p1').text("* For your name please use alphabets only *"); // This Segment Displays The Validation Rule For Name
+$("#fname").focus();
+$("#lname").focus();
+return false;
+}
+
+//Validating Email Field.
+else if (!email.match(email_regex) || email.length == 0) {
+$('#p2').text("* Please enter a valid email address *"); // This Segment Displays The Validation Rule For Email
+$("#email").focus();
+return false;
+}
+
+//Validating Address Field.
+else if (!address.match(add_regex) || address.length == 0) {
+$('#p3').text("* For Address please use numbers and letters *"); // This Segment Displays The Validation Rule For Address
+$("#address").focus();
+return false;
+}
+
+
+//Validating ContactNumber Field.
+else if (!contactNumber.match(contactNumber_regex) || contactNumber.length == 0) {
+$('#p4').text("* Please enter a valid zip code *"); // This Segment Displays The Validation Rule For Zip
+$("#contactNumber").focus();
+return false;
+}
+
+// Validating Password Field.
+else if (!(password.length >= 6 && password.length <= 8) || password.length == 0) {
+$('#p5').text("* Please enter between 6 and 8 characters *"); // This Segment Displays The Validation Rule For Username
+$("#password").focus();
+return false;
+}
+
+
+
+else {
+alert("Form Submitted Successfuly!");
+return true;
+}
+});
+});
+
+
+</script>
+  
+
