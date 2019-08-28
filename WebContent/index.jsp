@@ -19,3 +19,17 @@
   <!-- Material Kit CSS -->
   <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
 
+<!--  <script type="text/javascript">
+
+function validateEmail(email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    return emailReg.test( email );
+  }
+var clicked = jQuery("submit");
+
+clicked.click(function() {
+    var email = jQuery("input[type='email']").val();
+    ( !validateEmail(email) ) ? alert('no') : alert('yes') 
+});
+
+</script> -->
