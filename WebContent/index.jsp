@@ -255,7 +255,7 @@ return true;
               
                     %>
 
-       
+
           <div class="col-md-4">
             <div class="card card-product card-plain">
               <div class="card-header card-header-image">
@@ -290,3 +290,41 @@ return true;
                        }
   
            %>
+
+
+
+              
+        </div>
+      </div>
+    </div>
+</div>
+    </div>
+
+
+
+    <!-- section -->
+    <div class="section">
+      <div class="container">
+        <h2 class="section-title">Recent Books</h2>
+        <div class="row">
+         
+      
+      
+         <div class="col-md-12">
+           
+            <div class="row">
+           
+
+  <%
+                       BookService bks = new BookServiceImpl();
+                      
+                       ArrayList<Books> lis =   bks.getAllBooksindex2();
+                       
+                       for(Books b : lis){
+                          
+                       
+              
+                    %>
+
+
+
