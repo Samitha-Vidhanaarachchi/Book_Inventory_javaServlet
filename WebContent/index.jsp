@@ -141,7 +141,7 @@ return true;
                     </a>
                   </li>
 
-                  
+
 
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -191,3 +191,66 @@ return true;
           </li>
           <li class="button-container nav-item iframe-extern">
             
+            
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="page-header " data-parallax="true" style="background-image: url('assets/img/coverpage.jpg'); ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+       
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="main main-raised" >
+    <div class="container">
+      <div class="section text-center">
+
+        <!--latest Books -->
+
+           <div class="section" >
+      <div class="container" >
+                       <div class="card card-raised card-form-horizontal" style="width: 500px; position: absolute;top: 50px; right: 50px;">
+                  <div class="card-body ">
+                    <form method="" action="#">
+                      <div class="row">
+                        <div class="col-lg-8 col-md-6 ">
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="material-icons">search</i>
+                              </span>
+                            </div>
+                            <input type="text" value="" placeholder="Search..." class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 ">
+                          <button type="button" class="btn btn-primary btn-block">Search</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <br><br>
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="row">
+        
+        <%
+                       BookService bksv = new BookServiceImpl();
+                      
+                       ArrayList<Books> list =  bksv.getAllBooksindex();
+                       
+                       for(Books b : list){
+                          
+                       
+              
+                    %>
