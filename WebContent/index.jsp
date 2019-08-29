@@ -254,3 +254,39 @@ return true;
                        
               
                     %>
+
+       
+          <div class="col-md-4">
+            <div class="card card-product card-plain">
+              <div class="card-header card-header-image">
+                <a href="#pablo">
+                  <img src="assets/img/B186-250.jpg" alt="">
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title">
+                  <a href="#pablo"><%=b.getBookName() %></a>
+                </h4>
+                <p class="card-description"><%=b.getBookauthor()%></p>
+                 <h5 class="card-title"> Rs. <%=b.getBookPrice() %></h5>
+              </div>
+              <div class="card-footer">
+                 <div class="row" > 
+              <button style="background-color: #247DF5; left: 60px;" class="btn btn-primary"  data-toggle="modal" data-target="#smallAlertModal">Lend book</button>
+              <button style="background-color: #F52424 ;  left: 60px;" class="btn btn-primary "  data-toggle="modal" data-target="#smallAlertModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+
+                  </div>
+                <div class="stats ml-auto">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          <%
+                       }
+  
+           %>
