@@ -369,6 +369,76 @@ return true;
       </div>
       </div>
       </div>
+
+      
+    
+           
+         
+    <!-- end-main-raised -->
+  <div class="section section-blog">
+    <div class="container">
+      <h2 class="section-title">Genre Types</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-header card-header-image">
+              <a href="#pablo">
+                <img src="assets/img/B6-300.jpg" alt="">
+              </a>
+            </div>
+            <div class="card-body">
+              <h6 class="card-category text-rose">Children</h6>
+              <h4 class="card-title">
+                <a href="#pablo">This genre is closely associated with the thriller and adventure genre</a>
+              </h4>
+              <p class="card-description">
+                Action film is a film genre in which the protagonist or protagonists are thrust into a series of challenges that typically include violence, extended fighting, physical feats, and frantic chases...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-header card-header-image">
+              <a href="#pablo">
+                <img src="assets/img/B227-175.jpg" alt="">
+              </a>
+            </div>
+            <div class="card-body">
+              <h6 class="card-category text-rose">Novel</h6>
+              <h4 class="card-title">
+                <a href="#pablo">Adventure Films are exciting stories, with new experiences or exotic locales</a>
+              </h4>
+              <p class="card-description">
+                Adventure films are very similar to the action film genre, in that they are designed to provide an action-filled, energetic experience for the film viewer...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-header card-header-image">
+              <a href="#pablo">
+                <img src="assets/img/B186-250.jpg" alt="">
+              </a>
+            </div>
+            <div class="card-body">
+              <h6 class="card-category text-rose">Education</h6>
+              <h4 class="card-title">
+                <a href="#pablo">The word anime is the Japanese term for animation, which means all forms of animated media</a>
+              </h4>
+              <p class="card-description">
+                Outside Japan, anime refers specifically to animation from Japan or as a Japanese-disseminated animation style often characterized by colorful graphics, vibrant characters and fantastical themes...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section -->
+
+
          
 
 
