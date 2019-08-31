@@ -370,7 +370,7 @@ return true;
       </div>
       </div>
 
-      
+
     
            
          
@@ -475,6 +475,15 @@ return true;
       </div>
     </div>
   </div>
+  <footer class="footer footer-black footer-big">
+    <div class="container">
+      <div class="content">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>Creative Tim is a startup that creates design tools that make the web development process faster and easier. </p>
+            <p>We love the web and care deeply for how users interact with a digital product. We power businesses and individuals to create better looking web projects around the world. </p>
+          </div>
          
 
 
