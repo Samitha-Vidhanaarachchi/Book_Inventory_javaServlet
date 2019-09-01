@@ -584,4 +584,12 @@ return true;
                      </button>
                     </div>
                    </div> 
-                   
+                         <div class="modal-footer justify-content-center">
+            <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg" data-toggle="modal" data-target="#signupModal" >Register</a>
+          </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
