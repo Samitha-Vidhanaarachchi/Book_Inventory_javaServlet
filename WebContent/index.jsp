@@ -552,3 +552,36 @@ return true;
               </div>
             </div>
           </div>
+          
+          <div class="modal-body">
+            <form class="form" action="CustomerServlet" method="post">
+              <p class="description text-center">Or Be Classical</p>
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">mail</i>
+                      </span>
+                    </div>
+                    <input type="text" name="Email" class="form-control" placeholder="Email..."  />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                      </span>
+                    </div>
+                    <input type="password" name="password" placeholder="Password..." class="form-control"  />
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer justify-content-center">
+                 <div class="text-center" >
+                     <button  type="submit" style="background-color: #0DB02F; width: 300px;" class="btn btn-primary">Login
+                     </button>
+                    </div>
+                   </div> 
+                   
