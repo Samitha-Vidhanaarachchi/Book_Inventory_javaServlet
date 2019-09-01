@@ -552,7 +552,7 @@ return true;
               </div>
             </div>
           </div>
-          
+
           <div class="modal-body">
             <form class="form" action="CustomerServlet" method="post">
               <p class="description text-center">Or Be Classical</p>
@@ -593,3 +593,18 @@ return true;
       </div>
     </div>
   </div>
+  
+
+    <!-- Register Modal -->
+    
+ <form class="form" method="post" action="AddCustomerServlet">   
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-signup" role="document">
+      <div class="modal-content">
+        <div class="card card-signup card-plain">
+          <div class="modal-header">
+            <h3 class="modal-title card-title">Register</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">clear</i>
+            </button>
+          </div>
