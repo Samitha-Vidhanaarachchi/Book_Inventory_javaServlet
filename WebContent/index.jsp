@@ -608,3 +608,15 @@ return true;
               <i class="material-icons">clear</i>
             </button>
           </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-7 ml-auto">
+              <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">face</i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="First Name..." name="fname" value="" maxlength=20  required/>
+                      </div>
