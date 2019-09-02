@@ -665,3 +665,31 @@ return true;
                         <p id="p4"></p>
                       </div>
                     </div>
+                                 
+              </div>
+               <div class="col-md-5 mr-auto">
+                                    
+               
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock_outline</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Password..." name="password" class="form-control" value="" maxlength=20 required />
+                        <p id="p5"></p>
+                      </div>
+                    </div>
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Confirm Password..." name="confirmPassword" class="form-control" value="" maxlength=20 required  />
+                      </div>
+                    </div>
+					
+					<br> 
