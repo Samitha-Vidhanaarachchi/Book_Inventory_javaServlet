@@ -639,3 +639,29 @@ return true;
                             <i class="material-icons">mail</i>
                           </span>
                         </div>
+                         <input type="email" class="form-control" placeholder="Email..." name="email" value="" maxlength=100 required/>
+                        <p id="p2"></p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">location_on</i>
+                          </span>
+                        </div>
+                        <input type="text" placeholder="address..." name="address" class="form-control" value="" maxlength=20 required />
+                        <p id="p3"></p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">phone</i>
+                          </span>
+                        </div>
+                        <input type="text" placeholder="Contact Number..." name="contactNumber" class="form-control" value="" maxlength=10  required />
+                        <p id="p4"></p>
+                      </div>
+                    </div>
