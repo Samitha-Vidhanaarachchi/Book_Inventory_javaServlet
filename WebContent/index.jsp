@@ -620,3 +620,22 @@ return true;
                         </div>
                         <input type="text" class="form-control" placeholder="First Name..." name="fname" value="" maxlength=20  required/>
                       </div>
+                      </div>
+					<div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">face</i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Last Name..." name="lname" value="" maxlength=20  required/>
+                        <p id="p1"></p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">mail</i>
+                          </span>
+                        </div>
