@@ -19,12 +19,15 @@
   <!-- Material Kit CSS -->
   <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
 
+
+
+	
 <!--  <script type="text/javascript">
 
 function validateEmail(email) {
     var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
     return emailReg.test( email );
-  }
+	}
 var clicked = jQuery("submit");
 
 clicked.click(function() {
@@ -112,7 +115,10 @@ return true;
 
 
 </script>
-  
+	
+
+
+
 
 </head>
 
@@ -191,7 +197,6 @@ return true;
           </li>
           <li class="button-container nav-item iframe-extern">
             
-            
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
      
           </li>
@@ -246,21 +251,23 @@ return true;
         
         <%
                        BookService bksv = new BookServiceImpl();
-                      
-                       ArrayList<Books> list =  bksv.getAllBooksindex();
+                    	
+                       ArrayList<Books> list = 	bksv.getAllBooksindex();
                        
                        for(Books b : list){
-                          
+                    	   	
                        
               
                     %>
-
-
+                    
+        
+        
+        
           <div class="col-md-4">
             <div class="card card-product card-plain">
               <div class="card-header card-header-image">
                 <a href="#pablo">
-                  <img src="assets/img/B186-250.jpg" alt="">
+                  <img src="assets/BOOKS/MALL/<%=b.getPhoto() %>" alt="">
                 </a>
               </div>
               <div class="card-body text-center">
@@ -286,14 +293,13 @@ return true;
           
           
           
-          <%
+					<%
                        }
   
-           %>
+ 					 %>
 
-
-
-
+              
+          
         </div>
       </div>
     </div>
@@ -317,23 +323,28 @@ return true;
 
   <%
                        BookService bks = new BookServiceImpl();
+                    	
+                       ArrayList<Books> lis = 	bks.getAllBooksindex2();
+                       
                       
-                       ArrayList<Books> lis =   bks.getAllBooksindex2();
                        
                        for(Books b : lis){
-                          
+                    	   
+                    	 
+                    	   	
                        
               
                     %>
 
 
-                     <!-- begin -->
+
+     <!-- begin -->
               <div class="col-md-3">
               
                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                  <div class="card-header card-header-image">
-                    <a href="#">
-                      <img src="assets/img/B178-325.jpg" alt="...">
+                  <div class="card-header card-header-image" >
+                    <a href="#" >
+                      <img src="assets/BOOKS/MALL/<%=b.getPhoto() %>" alt="...">
                     </a>
                   </div>
                   <div class="card-body">
@@ -354,11 +365,9 @@ return true;
               </div>
                <!-- end card -->
 
-
-
-                          
+               
       <%
-          }
+      		}
                 %>
                
 
@@ -369,9 +378,7 @@ return true;
       </div>
       </div>
       </div>
-
-
-    
+         
            
          
     <!-- end-main-raised -->
@@ -501,7 +508,7 @@ return true;
               </div>
             </div>
           </div>
-           
+       
         </div>
       </div>
       <hr>
@@ -524,10 +531,6 @@ return true;
  
     </div>
   </footer>
-         
-
-
-
 
 
       <!-- Login Modal -->
@@ -552,7 +555,6 @@ return true;
               </div>
             </div>
           </div>
-
           <div class="modal-body">
             <form class="form" action="CustomerServlet" method="post">
               <p class="description text-center">Or Be Classical</p>
@@ -584,7 +586,8 @@ return true;
                      </button>
                     </div>
                    </div> 
-                         <div class="modal-footer justify-content-center">
+                   
+                   <div class="modal-footer justify-content-center">
             <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg" data-toggle="modal" data-target="#signupModal" >Register</a>
           </div>
             </form>
@@ -593,7 +596,7 @@ return true;
       </div>
     </div>
   </div>
-  
+
 
     <!-- Register Modal -->
     
@@ -620,7 +623,7 @@ return true;
                         </div>
                         <input type="text" class="form-control" placeholder="First Name..." name="fname" value="" maxlength=20  required/>
                       </div>
-                      </div>
+					</div>
 					<div class="form-group">
                       <div class="input-group">
                         <div class="input-group-prepend">
@@ -639,7 +642,7 @@ return true;
                             <i class="material-icons">mail</i>
                           </span>
                         </div>
-                         <input type="email" class="form-control" placeholder="Email..." name="email" value="" maxlength=100 required/>
+                        <input type="email" class="form-control" placeholder="Email..." name="email" value="" maxlength=100 required/>
                         <p id="p2"></p>
                       </div>
                     </div>
@@ -665,7 +668,7 @@ return true;
                         <p id="p4"></p>
                       </div>
                     </div>
-                                 
+                          
               </div>
                <div class="col-md-5 mr-auto">
                                     
@@ -693,8 +696,8 @@ return true;
                     </div>
 					
 					<br> 
-
-					  <div class="col-md-3 col-sm-4" style="left: 100px;" >
+					
+                      <div class="col-md-3 col-sm-4" style="left: 100px;" >
             
               <div class="fileinput fileinput-new text-center" data-provides="fileinput">
                 <div class="fileinput-new thumbnail img-circle img-raised">
@@ -712,8 +715,8 @@ return true;
                 </div>
               </div>
             </div>
-
-            <div class="card-footer justify-content-center">
+                    
+                <div class="card-footer justify-content-center">
                  <div class="text-center" >
                      <button id="submit" type="submit" style="background-color: #99199B; width: 300px;" class="btn btn-primary">Register
                      </button>
@@ -789,6 +792,3 @@ return true;
 
 </body>
 </html>
-
-
-
