@@ -693,3 +693,22 @@ return true;
                     </div>
 					
 					<br> 
+
+					  <div class="col-md-3 col-sm-4" style="left: 100px;" >
+            
+              <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                <div class="fileinput-new thumbnail img-circle img-raised">
+                  <img src="assets/img/us.png" alt="...">
+                </div>
+                <div class="fileinput-preview fileinput-exists thumbnail img-circle img-raised"></div>
+                <div>
+                  <span class="btn btn-raised btn-round btn-default btn-file">
+                    <span class="fileinput-new">Add Photo</span>
+                    <span class="fileinput-exists">Change</span>
+                    <input type="file" name="..." />
+                  </span>
+                  <br />
+                  <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                </div>
+              </div>
+            </div>
