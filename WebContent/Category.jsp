@@ -20,6 +20,90 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- Material Kit CSS -->
   <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAvigation Bar--> 
+
+ <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" >
+           </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div style="position: absolute; right: 10px ;" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+         
+        <li class="nav-item">
+                    <a href="index.jsp" class="nav-link">
+                      <i class="material-icons">home</i>Home
+                    </a>
+                  </li>
+
+
+
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="fa fa-bars"></i> Category
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+            <a href="Category.jsp" class="dropdown-item">
+               <i class="fa fa-book"></i></i>&nbsp; &nbsp; Novel 
+              </a>
+               <a href="CategoryC.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp; Children
+              </a>
+              <a href="CategoryE.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp;  Education
+              </a>
+            </div>
+          </li>
+
+
+         <li class="nav-item" >
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"> 
+                      <i class="material-icons">account_circle</i>Login / Register
+                    </a>
+                  </li>
+
+          
+
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+              <a href="About_Us.jsp" class="dropdown-item">
+                <i class="material-icons">people</i> About Us
+              </a>
+               <a href="Contact_Us.jsp" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
+            </div>
+          </li>
+          <li class="button-container nav-item iframe-extern">
+            <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
+              <i class="material-icons">shopping_cart</i> Buy Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
