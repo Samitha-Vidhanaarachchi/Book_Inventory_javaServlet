@@ -145,6 +145,90 @@
 
 
 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="section">
+      <div class="container">
+        
+        <div class="row">
+         
+         <div class="col-md-12">
+            <div class="row">
+
+					<%
+                       BookService bksv = new BookServiceImpl();
+                    	
+                       ArrayList<Books> list = 	bksv.getAllBooksNovel();
+                       
+                       for(Books b : list){
+                    	   	
+                       
+              
+                    %>
+                    
+
+                <!-- begin -->
+              <div class="col-md-3">
+              
+                <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
+                  <div class="card-header card-header-image">
+                    <a href="#">
+                      <img src="assets/BOOKS/MNOVEL/<%=b.getPhoto() %>" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#">
+                      <h4 class="card-title"><%=b.getBookName() %></h4>
+                    </a>
+                    <p class="description" style="text-align:center;"><%=b.getBookauthor()%></p>
+                    <h5 class="card-title">Rs.<%=b.getBookPrice() %></h5>
+                     <div class="row"> 
+              <a href="Purchase.jsp"> <button style="background-color: #247DF5; left: 30px;" class="btn btn-primary">Lend book</button></a>
+              
+              <form action="getBookDetailsServlet" method="post">
+              			<input type="hidden" name="getBookName" value="<%=b.getBookName() %>" >
+              			<input type="hidden" name="getBookAuthor" value="<%=b.getBookauthor() %>" >
+              			<input type="hidden" name="getBookPrice" value="<%=b.getBookPrice() %>" >
+              			<!--  <input type="hidden" name="getQty" value="">-->
+           				<button style="background-color: #F52424 ;  left: 30px; height:40px;" class="btn btn-primary " >
+            			<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            			</form>
+
+                  </div>
+                  </div>
+                
+                </div>
+               
+              </div>
+               <!-- end card -->
+
+
+					<%
+                       }
+  
+ 					 %>
+
+              
+
+
+
+
+            
+            </div>
+          </div>
+    <!-- section -->
+        </div>
+
+      </div>
+    </div>
+    <!-- section -->
+  </div>
+  
+
 
 
 
