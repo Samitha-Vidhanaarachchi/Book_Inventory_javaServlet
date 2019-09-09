@@ -313,7 +313,7 @@
     </div>
   </footer>
 
-  
+
     <!-- Login Modal -->
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-login" role="document">
@@ -434,6 +434,31 @@
                       </div>
                     </div>
               </div>
+                     <div class="col-md-5 mr-auto">
+                  <form class="form" method="" action="#">
+                   
+               
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock_outline</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Password..." class="form-control" />
+                      </div>
+                    </div>
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Confirm Password..." class="form-control" />
+                      </div>
+                    </div>
+                      <div class="col-md-3 col-sm-4" style="left: 100px;" >
 
 
 
