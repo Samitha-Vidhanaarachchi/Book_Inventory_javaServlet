@@ -75,3 +75,46 @@
             </div>
           </li>
 
+
+         <li class="nav-item" >
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"> 
+                      <i class="material-icons">account_circle</i>Login / Register
+                    </a>
+                  </li>
+
+          
+
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+              <a href="About_Us.jsp" class="dropdown-item">
+                <i class="material-icons">people</i> About Us
+              </a>
+               <a href="Contact_Us.jsp" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
+            </div>
+          </li>
+          <li class="button-container nav-item iframe-extern">
+            <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
+              <i class="material-icons">shopping_cart</i> Buy Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/bookscover.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="brand">
+           
