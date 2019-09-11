@@ -328,3 +328,37 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
               <h4 class="card-title">Log in</h4>
             
+            </div>
+          </div>
+          <div class="modal-body">
+            <form class="form" method="" action="#">
+              <p class="description text-center">Or Be Classical</p>
+              <div class="card-body">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">account_circle</i>
+                      </span>
+                    </div>
+                    <input type="text" name="Uname" class="form-control" placeholder="User name...">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                      </span>
+                    </div>
+                    <input type="password" name="password" placeholder="Password..." class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer justify-content-center">
+                 <div class="text-center" >
+                     <button  type="submit" style="background-color: #0DB02F; width: 300px;" class="btn btn-primary">Login
+                     </button>
+                    </div>
+                   </div> 
+                   
