@@ -46,6 +46,11 @@
                       <i class="material-icons">home</i>Home
                     </a>
                   </li>
+                    <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="fa fa-bars"></i> Category
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
 
 
 
