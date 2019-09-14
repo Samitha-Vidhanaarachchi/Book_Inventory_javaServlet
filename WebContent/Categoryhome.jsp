@@ -51,6 +51,18 @@
               <i class="fa fa-bars"></i> Category
             </a>
             <div class="dropdown-menu dropdown-with-icons">
+                
+            <a href="Categoryhome.jsp" class="dropdown-item">
+               <i class="fa fa-book"></i></i>&nbsp; &nbsp; Novel 
+              </a>
+               <a href="CategoryChome.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp; Children
+              </a>
+              <a href="CategoryEhome.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp;  Education
+              </a>
+            </div>
+          </li>
 
 
 
