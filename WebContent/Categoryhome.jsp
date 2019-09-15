@@ -99,6 +99,10 @@
     </div>
   </nav>
 
-
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/bookscover.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="brand">
 
 
