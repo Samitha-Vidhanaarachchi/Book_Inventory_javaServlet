@@ -63,7 +63,7 @@
               </a>
             </div>
           </li>
-          
+
 
          <li class="nav-item" >
                     <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"> 
@@ -104,5 +104,15 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <div class="brand">
+
+            
+     <div class="row">
+             <div class="col-lg-6 col-md-8" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" style="background-color: #FCECFD; border-radius: 30px;" role="tablist">                        
+                          <li class="nav-item" >
+                            <a class="nav-link active" href="Categoryhome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Novels
+                            </a>
+                          </li>
 
 
