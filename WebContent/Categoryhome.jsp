@@ -114,5 +114,21 @@
                               <i class="material-icons">book</i> Novels
                             </a>
                           </li>
+      
+                          <li class="nav-item">
+                            <a class="nav-link " href="CategoryChome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Children
+                            </a>
+                          </li>
+
+             <li class="nav-item">
+                            <a class="nav-link " href="CategoryEhome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Education
+                            </a>
+                          </li>
+                          
+                        
+                        </ul>
+            </div>
 
 
