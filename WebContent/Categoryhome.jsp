@@ -114,7 +114,7 @@
                               <i class="material-icons">book</i> Novels
                             </a>
                           </li>
-      
+
                           <li class="nav-item">
                             <a class="nav-link " href="CategoryChome.jsp" role="tab" >
                               <i class="material-icons">book</i> Children
@@ -130,5 +130,79 @@
                         
                         </ul>
             </div>
+            
+          </div>
+
+
+
+   
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="section">
+      <div class="container">
+        
+        <div class="row">
+         
+         <div class="col-md-12">
+            <div class="row">
+
+          <%
+                       BookService bksv = new BookServiceImpl();
+                      
+                       ArrayList<Books> list =  bksv.getAllBooksNovel();
+                       
+                       for(Books b : list){
+                          
+                       
+              
+                    %>
+                    
+
+                <!-- begin -->
+              <div class="col-md-3">
+              
+                <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
+                  <div class="card-header card-header-image">
+                    <a href="#">
+                      <img src="assets/BOOKS/MALL/<%=b.getPhoto() %>" alt="...">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#">
+                      <h4 class="card-title"><%=b.getBookName() %></h4>
+                    </a>
+                    <p class="description" style="text-align:center;"><%=b.getBookauthor()%></p>
+                    <h5 class="card-title">Rs.<%=b.getBookPrice() %></h5>
+                     <div class="row"> 
+              <button style="background-color: #247DF5; left: 30px;" class="btn btn-primary" data-toggle="modal" data-target="#smallAlertModal">Lend book</button>
+              <button style="background-color: #F52424 ;  left: 30px;" class="btn btn-primary " data-toggle="modal" data-target="#smallAlertModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+
+                  </div>
+                  </div>
+                
+                </div>
+               
+              </div>
+               <!-- end card -->
+
+
+          <%
+                       }
+  
+           %>
+
+              
+
+
+
 
 
