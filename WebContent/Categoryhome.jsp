@@ -213,7 +213,7 @@
     </div>
     <!-- section -->
   </div>
-  !-- section -->
+  <!-- section -->
   <div class="subscribe-line subscribe-line-image" data-parallax="true" style="background-image: url(%26apos%3b/assets/img/examples/ecommerce-header.html);">
     <div class="container">
       <div class="row">
@@ -224,5 +224,22 @@
               Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
             </p>
           </div>
-
-
+          <div class="card card-raised card-form-horizontal">
+            <div class="card-body">
+              <form method="" action="#">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="material-icons">mail</i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Your Email...">
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <button type="button" class="btn btn-rose btn-block">Subscribe</button>
+                  </div>
+                </div>
+              </form>
