@@ -325,3 +325,15 @@
                     <input type="text" name="Uname" class="form-control" placeholder="User name...">
                   </div>
                 </div>
+                
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                      </span>
+                    </div>
+                    <input type="password" name="password" placeholder="Password..." class="form-control" />
+                  </div>
+                </div>
+              </div>
