@@ -337,7 +337,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="card-footer justify-content-center">
                  <div class="text-center" >
                      <button  type="submit" style="background-color: #0DB02F; width: 300px;" class="btn btn-primary">Login
@@ -348,3 +348,105 @@
                    <div class="modal-footer justify-content-center">
             <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg" data-toggle="modal" data-target="#signupModal" >Register</a>
           </div>
+
+          
+            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Register Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-signup" role="document">
+      <div class="modal-content">
+        <div class="card card-signup card-plain">
+          <div class="modal-header">
+            <h3 class="modal-title card-title">Register</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">clear</i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-5 ml-auto">
+              <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">face</i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Full Name...">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">mail</i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email...">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">location_on</i>
+                          </span>
+                        </div>
+                        <input type="text" placeholder="adress..." class="form-control" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">phone</i>
+                          </span>
+                        </div>
+                        <input type="text" placeholder="Phone..." class="form-control" />
+                      </div>
+                    </div>
+                           <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">account_circle</i>
+                          </span>
+                        </div>
+                        <input type="text" placeholder="User name..." class="form-control" />
+                      </div>
+                    </div>
+              </div>
+               <div class="col-md-5 mr-auto">
+                  <form class="form" method="" action="#">
+                   
+               
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock_outline</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Password..." class="form-control" />
+                      </div>
+                    </div>
+                      <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">lock</i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Confirm Password..." class="form-control" />
+                      </div>
+                    </div>
+                      <div class="col-md-3 col-sm-4" style="left: 100px;" >
+            
