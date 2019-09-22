@@ -465,3 +465,20 @@
                 </div>
               </div>
             </div>
+
+             
+                    <div class="card-footer justify-content-center">
+                 <div class="text-center" >
+                     <button  style="background-color: #99199B; width: 300px;" class="btn btn-primary">Register
+                     </button>
+                    </div>
+                   </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
