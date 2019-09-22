@@ -466,7 +466,7 @@
               </div>
             </div>
 
-             
+
                     <div class="card-footer justify-content-center">
                  <div class="text-center" >
                      <button  style="background-color: #99199B; width: 300px;" class="btn btn-primary">Register
@@ -492,3 +492,42 @@
             <i class="material-icons">clear</i>
           </button>
         </div>
+
+        
+        <div class="modal-body">
+          <div class="instruction">
+            <div class="row">
+              <div class="col-md-8">
+                <strong>1. Register</strong>
+                <p>The first step is to create an account at
+                  <a href="http://www.creative-tim.com/">Creative Tim</a>. You can choose a social network or go for the classic version, whatever works best for you.</p>
+              </div>
+              <div class="col-md-4">
+                <div class="picture">
+                  <img src="assets/img/dg1.jpg" alt="Thumbnail Image" class="rounded img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="instruction">
+            <div class="row">
+              <div class="col-md-8">
+                <strong>2. Apply</strong>
+                <p>The first step is to create an account at
+                  <a href="http://www.creative-tim.com/">Creative Tim</a>. You can choose a social network or go for the classic version, whatever works best for you.</p>
+              </div>
+              <div class="col-md-4">
+                <div class="picture">
+                  <img src="assets/img/dg2.jpg" alt="Thumbnail Image" class="rounded img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>If you have more questions, don&apos;t hesitate to contact us or send us a tweet @creativetim. We&apos;re here to help!</p>
+        </div>
+        <div class="modal-footer text-center">
+          <button type="button" class="btn btn-info btn-round" data-dismiss="modal">Sounds good!</button>
+        </div>
+      </div>
+    </div>
+  </div>
