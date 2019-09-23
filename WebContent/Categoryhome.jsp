@@ -517,7 +517,29 @@
                   <a href="http://www.creative-tim.com/">Creative Tim</a>. You can choose a social network or go for the classic version, whatever works best for you.</p>
               </div>
               <div class="col-md-4">
-                <div class="picture">
+                <d
+
+                 
+   
+  <!-- small modal -->
+  <div class="modal fade" id="smallAlertModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-small" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+        </div>
+        <div class="modal-body text-center">
+          <h5>Please Login first </h5>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-link" data-dismiss="modal">ok</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--    end small modal -->
+  iv class="picture">
                   <img src="assets/img/dg2.jpg" alt="Thumbnail Image" class="rounded img-fluid">
                 </div>
               </div>
@@ -531,3 +553,25 @@
       </div>
     </div>
   </div>
+
+   
+   
+  <!-- small modal -->
+  <div class="modal fade" id="smallAlertModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-small" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+        </div>
+        <div class="modal-body text-center">
+          <h5>Please Login first </h5>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-link" data-dismiss="modal">ok</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--    end small modal -->
+  
