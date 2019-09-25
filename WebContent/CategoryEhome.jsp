@@ -113,7 +113,7 @@
         <div class="col-md-8 ml-auto mr-auto text-center">
           <div class="brand">
 
-          	
+
      <div class="row">
              <div class="col-lg-6 col-md-8" style="left: 200px;">
                       <ul class="nav nav-pills nav-pills-icons justify-content-center" style="background-color: #FCECFD; border-radius: 30px;" role="tablist">                        
@@ -128,3 +128,40 @@
                               <i class="material-icons">book</i> Children
                             </a>
                           </li>
+                          
+             <li class="nav-item">
+                            <a class="nav-link active" href="CategoryEhome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Education
+                            </a>
+                          </li>
+                          
+                        
+                        </ul>
+            </div>
+
+
+          </div>
+
+
+
+   
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="section">
+      <div class="container">
+        
+        <div class="row">
+         
+         <div class="col-md-12">
+            <div class="row">
+
+
