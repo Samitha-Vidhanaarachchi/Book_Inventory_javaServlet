@@ -41,7 +41,7 @@
       </div>
       <div style="position: absolute; right: 10px ;" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-        	
+
 
         <li class="nav-item">
                     <a href="index.jsp" class="nav-link">
@@ -95,3 +95,20 @@
               </a>
             </div>
           </li>
+
+          
+          <li class="button-container nav-item iframe-extern">
+            <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
+              <i class="material-icons">shopping_cart</i> Buy Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/bookscover.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="brand">
