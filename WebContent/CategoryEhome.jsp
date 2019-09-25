@@ -76,3 +76,22 @@
                       <i class="material-icons">account_circle</i>Login / Register
                     </a>
                   </li>
+
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+              <a href="About_Us.jsp" class="dropdown-item">
+                <i class="material-icons">people</i> About Us
+              </a>
+               <a href="Contact_Us.jsp" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
+            </div>
+          </li>
