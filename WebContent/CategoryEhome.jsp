@@ -58,4 +58,21 @@
             <div class="dropdown-menu dropdown-with-icons">
               
               
-         
+          <a href="Categoryhome.jsp" class="dropdown-item">
+               <i class="fa fa-book"></i></i>&nbsp; &nbsp; Novel 
+              </a>
+               <a href="CategoryChome.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp; Children
+              </a>
+              <a href="CategoryEhome.jsp" class="dropdown-item">
+                <i class="fa fa-book"></i>&nbsp; &nbsp;  Education
+              </a>
+            </div>
+          </li>
+
+
+         <li class="nav-item" >
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"> 
+                      <i class="material-icons">account_circle</i>Login / Register
+                    </a>
+                  </li>
