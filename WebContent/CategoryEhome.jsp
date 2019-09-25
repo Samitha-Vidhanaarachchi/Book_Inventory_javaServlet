@@ -96,7 +96,7 @@
             </div>
           </li>
 
-          
+
           <li class="button-container nav-item iframe-extern">
             <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
               <i class="material-icons">shopping_cart</i> Buy Now
@@ -112,3 +112,19 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <div class="brand">
+
+          	
+     <div class="row">
+             <div class="col-lg-6 col-md-8" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" style="background-color: #FCECFD; border-radius: 30px;" role="tablist">                        
+                          <li class="nav-item" >
+                            <a class="nav-link " href="Categoryhome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Novels
+                            </a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link " href="CategoryChome.jsp" role="tab" >
+                              <i class="material-icons">book</i> Children
+                            </a>
+                          </li>
