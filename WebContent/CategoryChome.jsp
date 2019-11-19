@@ -17,13 +17,31 @@
   <!-- Material Kit CSS -->
   <link href="assets/css/material-kit.min1036.css?v=2.0.5" rel="stylesheet" />
 
-
-
-
-
-
-
-
 </head>
 
 <body>
+
+
+  <!-- NAvigation Bar--> 
+
+ <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" >
+           </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div style="position: absolute; right: 10px ;" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+         
+        <li class="nav-item">
+                    <a href="index.jsp" class="nav-link">
+                      <i class="material-icons">home</i>Home
+                    </a>
+                  </li>
+
