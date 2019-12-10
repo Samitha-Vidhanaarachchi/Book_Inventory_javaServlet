@@ -30,7 +30,7 @@
 
 <body>
 
-  <!-- NAvigation Bar--> 
+  <!-- nnnnnnn NAvigation Bar--> 
 
  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
     <div class="container">
