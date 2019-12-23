@@ -325,7 +325,7 @@
   </footer>
 
 
-    <!-- Login Modal -->
+    <!-- Login Modal ,mn,n.m.l-->
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-login" role="document">
       <div class="modal-content">
