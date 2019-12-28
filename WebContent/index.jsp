@@ -35,7 +35,7 @@ clicked.click(function() {
     ( !validateEmail(email) ) ? alert('no') : alert('yes') 
 });
 
-</script> -->
+</script>-->
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -124,7 +124,7 @@ return true;
 
 <body>
 
-  <!-- NAvigation Bar--> 
+  <!--klxlk;kx;lKX NAvigation Bar--> 
 
  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
     <div class="container">

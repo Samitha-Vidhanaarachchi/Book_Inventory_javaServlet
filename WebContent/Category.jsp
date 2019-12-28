@@ -171,7 +171,7 @@
                     %>
                     
 
-                <!-- begin -->
+                <!-- begin div-->
               <div class="col-md-3">
               
                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
