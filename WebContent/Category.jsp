@@ -77,29 +77,6 @@
 
           
 
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Menu
-            </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              
-              
-              <a href="About_Us.jsp" class="dropdown-item">
-                <i class="material-icons">people</i> About Us
-              </a>
-               <a href="Contact_Us.jsp" class="dropdown-item">
-                <i class="material-icons">call</i> Contact Us
-              </a>
-              <a href="#" class="dropdown-item">
-                <i class="material-icons">fingerprint</i> Profile Page
-              </a>
-            </div>
-          </li>
-          <li class="button-container nav-item iframe-extern">
-            <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
-              <i class="material-icons">shopping_cart</i> Buy Now
-            </a>
-          </li>
         </ul>
       </div>
     </div>
@@ -128,6 +105,31 @@
                             <a class="nav-link " href="CategoryC.jsp" role="tab" >
                               <i class="material-icons">book</i> Children
                             </a>
+				  
+				  
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+              <a href="About_Us.jsp" class="dropdown-item">
+                <i class="material-icons">people</i> About Us
+              </a>
+               <a href="Contact_Us.jsp" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
+            </div>
+          </li>
+          <li class="button-container nav-item iframe-extern">
+            <a href="Cart.jsp"  class="btn  btn-rose   btn-round btn-block">
+              <i class="material-icons">shopping_cart</i> Buy Now
+            </a>
+          </li>
                           </li>
 
              <li class="nav-item">
