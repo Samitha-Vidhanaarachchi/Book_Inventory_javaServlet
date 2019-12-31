@@ -171,7 +171,26 @@
                     %>
                     
 
-                <!-- begin div-->
+           style="background-color: #F52424 ;  left: 30px; height:40px;" class="btn btn-primary " >
+            			<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            			</form>
+
+                  </div>
+                  </div>
+                
+                </div>
+               
+              </div>
+               <!-- end card -->
+
+
+					<%
+                       }
+  
+ 					 %>
+
+              
+     <!-- begin div-->
               <div class="col-md-3">
               
                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
@@ -194,26 +213,7 @@
               			<input type="hidden" name="getBookAuthor" value="<%=b.getBookauthor() %>" >
               			<input type="hidden" name="getBookPrice" value="<%=b.getBookPrice() %>" >
               			<!--  <input type="hidden" name="getQty" value="">-->
-           				<button style="background-color: #F52424 ;  left: 30px; height:40px;" class="btn btn-primary " >
-            			<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-            			</form>
-
-                  </div>
-                  </div>
-                
-                </div>
-               
-              </div>
-               <!-- end card -->
-
-
-					<%
-                       }
-  
- 					 %>
-
-              
-
+           				<button 
 
 
 
