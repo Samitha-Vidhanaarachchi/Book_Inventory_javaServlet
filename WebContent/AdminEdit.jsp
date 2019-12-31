@@ -108,38 +108,6 @@
           
 
 
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Menu
-            </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              
-              
-              <a href="#" class="dropdown-item">
-                <i class="material-icons">location_on</i> About Us
-              </a>
-               <a href="#" class="dropdown-item">
-                <i class="material-icons">call</i> Contact Us
-              </a>
-              <a href="#" class="dropdown-item">
-                <i class="material-icons">fingerprint</i> Profile Page
-              </a>
-            </div>
-     
-         <li class="button-container nav-item iframe-extern">
-           <form action ="#" method="post">
-          	 <button class="btn btn-primary">
-                <i class="material-icons">power_settings_new</i> <b>Logout</b>
-              </button></form> 
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  
-  
-  
   <div class="page-header header-filter" data-parallax="true" style="  height:900px; background-image: url('assets/img/bookscover.jpg')">
     <div class="container" >
     <div class="row">
@@ -175,6 +143,38 @@
             </div>
           
              
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Menu
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              
+              
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">location_on</i> About Us
+              </a>
+               <a href="#" class="dropdown-item">
+                <i class="material-icons">call</i> Contact Us
+              </a>
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">fingerprint</i> Profile Page
+              </a>
+            </div>
+     
+         <li class="button-container nav-item iframe-extern">
+           <form action ="#" method="post">
+          	 <button class="btn btn-primary">
+                <i class="material-icons">power_settings_new</i> <b>Logout</b>
+              </button></form> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
           
               <div class="profile-content">
                 <div class="container">
