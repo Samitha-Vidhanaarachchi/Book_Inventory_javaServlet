@@ -170,6 +170,102 @@
                             <a class="nav-link " href="AssignSalary.jsp" role="tab" >
                               <i class="material-icons">add</i> Calculate
                             </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
+                          </li>     <div class="col-lg-16 col-md-18" style="left: 200px;">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">                        
+                          <li class="nav-item">
+                            <a class="nav-link active" href="ViewSalary.jsp" role="tab" >
+                              <i class="material-icons">list</i> List
+                            </a>
+                          </li>
+
+                          <li class="nav-item ">
+                            <a class="nav-link " href="AssignSalary.jsp" role="tab" >
+                              <i class="material-icons">add</i> Calculate
+                            </a>
                           </li>
 
              <li class="nav-item">
